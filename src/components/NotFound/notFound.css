@@ -1,0 +1,19 @@
+.NotFound {
+
+    width: 100vw;
+    height: 100vh;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.NotFound-Text {
+    font-family: monospace;
+}
+
+.NotFound-Image {
+    width: 150px;
+    height: 130px;
+}
