@@ -55,7 +55,7 @@ class AddUser extends React.Component {
 
 const mapStateToProps = (({ users }) => {
 
-    if (users.status) {
+    if (users.status && users.status === "failure") {
         console.log(users);
     }
 
