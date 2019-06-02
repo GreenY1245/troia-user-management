@@ -19,20 +19,12 @@ export function fetchUsers(ammount = 10) {
     }
 }
 
-//Mock request function, simulate ajax request times
-function mockRequestTimeout() {
-    //NOTHING
-}
-
 export function addUser(user) {
 
     return dispatch => {
 
         console.log("dispatching reqest status")
         dispatch(userAddRequest());
-
-        console.log("mock timeout starting")
-        setTimeout(mockRequestTimeout, 500);
 
         const mockUser = {
             registered: {

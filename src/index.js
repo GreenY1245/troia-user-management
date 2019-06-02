@@ -12,7 +12,7 @@ import { Provider } from 'react-redux'
 import { BrowserRouter as Router } from 'react-router-dom'
 
 import dotenv from 'dotenv'
-dotenv.config({ path: __dirname + '../.env' });
+dotenv.config();
 
 const rootStore = createStore(rootReducer, applyMiddleware(thunk))
 
